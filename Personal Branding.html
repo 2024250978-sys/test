@@ -1,0 +1,2112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Branding Portfolio | Business Management & Service</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="icon" type="image/png" href="syahirahlogo.png">
+
+
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #C8A2C8;
+            color: #8B5FBF;
+
+        }
+
+
+
+        /*Abot Me>Personal Interest: Photos with description*/
+       .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 18px;
+            margin-top: 15px;
+                }
+
+        .gallery figure {
+            margin: 0;
+            text-align: center;
+                        }
+
+        .gallery img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
+        .gallery figcaption {
+            font-size: 13px;
+            color: #666666;
+            margin-top: 6px;
+            line-height: 1.4;
+        }
+
+
+        /* Blog specific styles */
+            .blog-article {
+                transition: all 0.3s ease;
+                margin-bottom: 25px;
+            }
+
+            .blog-article:hover {
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            }
+
+            .blog-preview {
+                line-height: 1.6;
+                color: #555;
+            }
+
+            .blog-full-content {
+                line-height: 1.7;
+                color: #444;
+            }
+
+            .blog-full-content p {
+                margin-bottom: 15px;
+            }
+
+            .blog-full-content ul {
+                margin: 15px 0 15px 20px;
+            }
+
+            .blog-full-content li {
+                margin-bottom: 8px;
+            }
+
+            .read-more-btn {
+                cursor: pointer;
+                transition: color 0.3s ease;
+            }
+
+            .read-more-btn:hover {
+                text-decoration: underline !important;
+            }
+
+        header {
+            background: linear-gradient(135deg, #1f3c88 0%, #323031 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 5px solid #8B5FBF;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background-color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #1f3c88;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .page {
+            display: none;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        h2 {
+            color: #FFFFE3;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        footer {
+            background-color: #1f3c88;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Personal Branding Portfolio</h1>
+    <p>Bachelor of Business in Service Management(Hons) | Faculty of Business and Management</p>
+</header>
+
+<nav>
+    <a href="#home" onclick="showPage('home')">Home</a>
+    <a href="#about" onclick="showPage('about')">About Me</a>
+    <a href="#resume" onclick="showPage('resume')">Resume</a>
+    <a href="#blog" onclick="showPage('blog')">Blog</a>
+    <a href="#contact" onclick="showPage('contact')">Contact</a>
+</nav>
+
+<!-- HOME PAGE -->
+<section id="home" class="page active">
+    <div class="card home-card" style="text-align: center;">
+        
+        <!-- Header Section dengan gradient background -->
+        <div style="background: linear-gradient(135deg, #1f3c88 0%, #323031 100%); padding: 30px; border-radius: 10px 10px 0 0; margin: -20px -20px 30px -20px;">
+            <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 30px;">
+               
+                <!-- Photo Container -->
+                <div style="position: relative;">
+                    <div style="width: 180px; height: 180px; border-radius: 50%; overflow: hidden; border: 5px solid white; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">
+                        <img src="gambar1.jpeg" 
+                             alt="Professional Photo" 
+                             style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div style="position: absolute; bottom: -10px; right: -10px; background: white; color: #1f3c88; padding: 8px 15px; border-radius: 20px; font-weight: bold; box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
+                        <i class="fas fa-graduation-cap"></i> Student
+                    </div>
+                </div>
+                
+                <!-- Title Section -->
+                <div style="flex: 1; min-width: 300px; text-align: left;">
+                    <h1 style="color: white; margin-bottom: 10px; font-size: 2.2rem;">Siti Nor Syahirah Izzati Binti Mat Sakri</h1>
+                    <div style="background: rgba(255,255,255,0.2); padding: 12px 20px; border-radius: 8px; backdrop-filter: blur(5px);">
+                        <h2 style="color: white; margin: 0; font-size: 1.4rem; font-weight: 500;">
+                            <i class="fas fa-book"></i> Business in Service Management Student
+                        </h2>
+                        <p style="color: rgba(255,255,255,0.9); margin: 5px 0 0 0; font-size: 1rem;">
+                            <i class="fas fa-university"></i> Faculty of Business & Management, UiTM Puncak Alam
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Introduction Section -->
+        <div style="margin-bottom: 30px;">
+            <h3 style="color: #1f3c88; margin-bottom: 20px; font-size: 1.5rem; position: relative; display: inline-block; padding-bottom: 10px;">
+                <i class="fas fa-star" style="color: #FFD700; margin-right: 10px;"></i>
+                About My Journey
+                <div style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 60px; height: 3px; background: linear-gradient(90deg, #1f3c88, #C8A2C8);"></div>
+            </h3>
+            
+            <div style="background: #f8f9ff; padding: 25px; border-radius: 10px; border-left: 5px solid #1f3c88; margin-bottom: 20px;">
+                <p style="text-align: justify; color: #2F4F4F; line-height: 1.8; font-size: 16px; margin-bottom: 15px;">
+                    <i class="fas fa-graduation-cap" style="color: #1f3c88; margin-right: 10px;"></i>
+                    I am currently in Semester three of six of the Bachelor of Business in Service Management (Honours) program at the Faculty of Business and Management. My academic journey so far has provided me with a strong foundation in service operations, customer experience design, business analytics, and service innovation.
+                </p>
+                
+                <p style="text-align: justify; color: #2F4F4F; line-height: 1.8; font-size: 16px; margin-bottom: 15px;">
+                    <i class="fas fa-bullseye" style="color: #1f3c88; margin-right: 10px;"></i>
+                    Being at the midpoint of my degree, I am actively building practical skills and theoretical knowledge that bridge the gap between customer expectations and service delivery. I am particularly passionate about exploring how technology and human-centered design can elevate service quality and create memorable customer interactions.
+                </p>
+                
+                <p style="text-align: justify; color: #2F4F4F; line-height: 1.8; font-size: 16px; margin-bottom: 15px;">
+                    <i class="fas fa-chart-line" style="color: #1f3c88; margin-right: 10px;"></i>
+                    Throughout my studies, I have engaged in case analyses, team projects, and service simulations that have sharpened my problem-solving, communication, and strategic thinking abilities. I am now eager to apply these skills in real-world settings through internships or industry projects in sectors such as hospitality, retail, healthcare, or service consultancy.
+                </p>
+                
+                <p style="text-align: justify; color: #2F4F4F; line-height: 1.8; font-size: 16px;">
+                    <i class="fas fa-handshake" style="color: #1f3c88; margin-right: 10px;"></i>
+                    I look forward to contributing to organizations that value service excellence, continuous improvement, and meaningful customer relationships. I am actively seeking opportunities to grow, learn, and make a positive impact as I progress toward my professional goals in service management.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Call to Action -->
+        <div style="background: linear-gradient(135deg, #f0f5ff 0%, #e8f0fe 100%); padding: 25px; border-radius: 10px; margin: 30px 0; border: 2px dashed #1f3c88;">
+            <h3 style="color: #1f3c88; margin-bottom: 15px; font-size: 1.4rem;">
+                <i class="fas fa-comments" style="margin-right: 10px;"></i>
+                Let's Connect!
+            </h3>
+            <p style="color: #2F4F4F; font-size: 17px; font-weight: 600; margin-bottom: 20px;">
+                Let's connect and discuss how I can bring value to your team or organization!
+            </p>
+            
+            <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
+                <a href="#contact" onclick="showPage('contact')" 
+                   style="background: linear-gradient(135deg, #1f3c88 0%, #4A6FA5 100%); color: white; padding: 12px 25px; border-radius: 30px; text-decoration: none; font-weight: 600; display: flex; align-items: center; gap: 8px; transition: all 0.3s ease;">
+                    <i class="fas fa-envelope"></i> Contact Me
+                </a>
+                
+                <a href="#resume" onclick="showPage('resume')"
+                   style="background: white; color: #1f3c88; padding: 12px 25px; border-radius: 30px; text-decoration: none; font-weight: 600; border: 2px solid #1f3c88; display: flex; align-items: center; gap: 8px; transition: all 0.3s ease;">
+                    <i class="fas fa-file-alt"></i> View Resume
+                </a>
+                
+                <a href="https://wa.me/601151660052" target="_blank"
+                   style="background: #25D366; color: white; padding: 12px 25px; border-radius: 30px; text-decoration: none; font-weight: 600; display: flex; align-items: center; gap: 8px; transition: all 0.3s ease;">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+        
+        <!-- Quick Info Cards -->
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 30px;">
+            <div style="flex: 1; min-width: 200px; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 3px 10px rgba(0,0,0,0.08); text-align: center;">
+                <div style="background: #e8f0fe; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; color: #1f3c88;">
+                    <i class="fas fa-calendar-alt" style="font-size: 24px;"></i>
+                </div>
+                <h4 style="color: #1f3c88; margin-bottom: 5px;">Current Status</h4>
+                <p style="color: #2F4F4F; margin: 0; font-size: 14px;">Semester 3/6</p>
+            </div>
+            
+            <div style="flex: 1; min-width: 200px; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 3px 10px rgba(0,0,0,0.08); text-align: center;">
+                <div style="background: #e8f0fe; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; color: #1f3c88;">
+                    <i class="fas fa-briefcase" style="font-size: 24px;"></i>
+                </div>
+                <h4 style="color: #1f3c88; margin-bottom: 5px;">Experience</h4>
+                <p style="color: #2F4F4F; margin: 0; font-size: 14px;">2+ Years in IT Service</p>
+            </div>
+            
+            <div style="flex: 1; min-width: 200px; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 3px 10px rgba(0,0,0,0.08); text-align: center;">
+                <div style="background: #e8f0fe; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; color: #1f3c88;">
+                    <i class="fas fa-language" style="font-size: 24px;"></i>
+                </div>
+                <h4 style="color: #1f3c88; margin-bottom: 5px;">Languages</h4>
+                <p style="color: #2F4F4F; margin: 0; font-size: 14px;">Malay, English, Arabic</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT ME PAGE -->
+<section id="about" class="page">
+    <h2>About Me</h2>
+    <div class="card">
+
+        <img src="saya.jpeg" alt="my photo" class="center">
+
+        <p style="text-align: justify; color:#444444; line-height:1.7;">
+            I am currently in Semester 3 of 6 of the Bachelor of Business in Service Management (Honours)
+            program at the Faculty of Business and Management. My academic journey has provided me with
+            a strong foundation in service operations, customer experience design, business analytics,
+            and service innovation.
+            <br><br>
+            Being at the midpoint of my degree, I am actively building both practical skills and
+            theoretical knowledge that bridge the gap between customer expectations and effective
+            service delivery. I am particularly interested in how technology, systems, and
+            human-centered design can be integrated to enhance service quality and operational efficiency.
+            <br><br>
+            Beyond academics, I value continuous self-improvement and personal growth. In my free time,
+            I enjoy activities that allow me to recharge and reflect, such as reading, organizing tasks,
+            and exploring topics related to self-development and business trends. These interests help me
+            develop discipline, focus, and a balanced mindset.
+            <br><br>
+            Throughout my studies, I have engaged in case analyses, team-based projects, and service
+            simulations that have strengthened my problem-solving, communication, and strategic thinking
+            skills. I enjoy working collaboratively and contributing ideas in group settings.
+            <br><br>
+            My career aspiration is to build a meaningful career in the service industry, where I can
+            contribute to organizations that value service excellence, continuous improvement, and
+            positive customer relationships. I am currently seeking opportunities such as internships
+            or industry-based projects to gain hands-on experience and further refine my professional
+            competencies.
+            <br><br>
+            I look forward to learning, growing, and making a positive impact as I progress toward my
+            professional goals in service management.
+        </p>
+
+  <hr style="margin:40px 0;">
+
+<h3 style="color:#666666;">Personal Interests</h3>
+
+<!-- COOKING -->
+<div style="margin-top:25px;">
+    <h4 style="color:#555555;">Cooking</h4>
+        <p style="text-align: justify; color:#444444; line-height:1.7;">
+    Cooking allows me to express creativity while practicing planning, discipline,
+    and attention to detail. Cooking and baking also help me to release stress from the world the ups and downs of life.
+        </p>
+
+<div class="gallery">
+    <figure>
+        <img src="cook1.jpeg" alt="Home-cooked meal">
+        <strong style="color: #444;">Home-cooked meal</strong><br>
+        <figcaption style="text-align: center;">Chicken soup served with stir-fried cabbage, boiled okra, budu dipping sauce, and sliced watermelon for lunch at my sisters' house at KL.</figcaption>
+    </figure>
+
+    <figure>
+        <img src="cook2.jpeg" alt="Maggi Asam Laksa">
+        <strong style="color: #444;">Maggi Asam Laksa</strong><br>
+        <figcaption>Upgraded asam laksa–style instant noodles, enhanced with torch ginger flower, pineapple, calamansi lime, and a boiled egg.</figcaption>
+    </figure>
+
+    <figure>
+        <img src="cook3.jpeg" alt="Roti Sangkaya">
+        <strong style="color: #444;">Roti Sangkaya</strong><br>
+        <figcaption>Roti sangkaya prepared for breakfast at the college.</figcaption>
+    </figure>
+
+    <figure>
+        <img src="cook4.jpeg" alt="Baby spinach salad">
+        <strong style="color: #444;">Baby spinach salad</strong><br>
+        <figcaption>A fresh baby spinach salad with cherry tomatoes, cucumber, iceberg lettuce, olive oil, and grated parmesan cheese, prepared for lunch during class.</figcaption>
+    </figure>
+
+    <figure>
+        <img src="cook5.jpeg" alt="Dinner Spaghetti Bolognese">
+        <strong style="color: #444;">Dinner Spaghetti Bolognese</strong><br>
+        <figcaption>Spaghetti bolognese cooked in my college room for dinner</figcaption>
+    </figure>
+
+    <figure>
+        <img src="cook6.jpeg" alt="Big Breakfast">
+        <strong style="color: #444;">Big Breakfast</strong><br>
+        <figcaption>A big breakfast prepared before heading to class</figcaption>
+    </figure>
+
+    <figure>
+        <img src="cook7.jpeg" alt="Butterfly Pea Lemon Juice">
+        <strong style="color: #444;"><strong style="color: #444;">Butterfly Pea Lemon Juice</strong><br></strong><br>
+        <figcaption>Perfect for quenching the thirst during a hot-boiling weather</figcaption>
+    </figure>
+</div>
+
+
+<!-- BAKING -->
+<div style="margin-top:35px;">
+    <h4 style="color:#555555; margin-top:35px;">Baking</h4>
+<p style="text-align: justify; color:#444444; line-height:1.7;">
+    Baking has strengthened my patience and precision, as it requires accuracy
+    and consistency throughout the process.
+</p>
+
+<div class="gallery">
+    <figure>
+        <img src="bake1.jpeg" alt="Semperit">
+        <strong style="color: #444;">Semperit Susu</strong><br>
+    </figure>
+
+    <figure>
+        <img src="bake2.jpeg" alt="Meringue Cookies">
+        <strong style="color: #444;">Meringue Cookies</strong><br>
+    </figure>
+
+    <figure>
+        <img src="bake3.jpeg" alt="Japanese Strawberry Shortcake">
+        <strong style="color: #444;">Japanese Strawberry Shortcake</strong><br>    
+        </figure>
+
+    <figure>
+        <img src="bake4.jpeg" alt="Banana Muffin Choc Chip">
+        <strong style="color: #444;">Banana Muffin Choc Chip</strong><br>
+    </figure>
+
+    <figure>
+        <img src="bake5.jpeg" alt="Mazola Nuts Cookie">
+        <strong style="color: #444;">Mazola Nuts Cookie</strong><br>    
+    </figure>
+
+    <figure>
+        <img src="bake6.jpeg" alt="Pandan Layer Cake">
+        <strong style="color: #444;">Pandan Layer Cake</strong><br>    </figure>
+
+    <figure>
+        <img src="bake7.jpeg" alt="Pandan Gula Melaka Cupcake">
+        <strong style="color: #444;">Pandan Gula Melaka Cupcake</strong><br>    </figure>
+
+    <figure>
+        <img src="bake8.jpeg" alt="Choc Moist Cupcake">
+        <strong style="color: #444;">Choc Moist Cupcake</strong><br>    </figure>
+
+    <figure>
+        <img src="bake9.jpeg" alt="Honey Cornflake">
+        <strong style="color: #444;">Honey Cornflake</strong><br>    </figure>
+
+<figure>
+        <img src="bake10.jpeg" alt="Pretzel">
+        <strong style="color: #444;">Pretzel</strong><br>    </figure>
+
+</div>
+
+<!-- Alternatif: Masonry-style layout untuk portrait -->
+<div style="margin-top:35px;">
+   <h4 style="color:#555555; margin-top:35px;">Bouquets</h4>
+   <p style="text-align: justify; color:#444444; line-height:1.7;">
+      Floral arrangement is more than just a hobby for me—it's a form of artistic expression and mindfulness. 
+      Each bouquet tells a story, captures a moment, or conveys an emotion. The process of selecting flowers, 
+      considering colors, textures, and arranging them harmoniously brings me peace and satisfaction. 
+      It complements my studies in service management by teaching me about aesthetics, presentation, 
+      and creating memorable experiences for others.
+   </p>
+
+   <style>
+      .portrait-gallery {
+         display: grid;
+         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+         gap: 25px;
+         margin-top: 25px;
+      }
+      
+      .portrait-item {
+         position: relative;
+         border-radius: 12px;
+         overflow: hidden;
+         box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+         background: white;
+         transition: all 0.3s ease;
+      }
+      
+      .portrait-item:hover {
+         transform: scale(1.02);
+         box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      }
+      
+      .portrait-image {
+         width: 100%;
+         height: 0;
+         padding-bottom: 133%; /* 3:4 aspect ratio untuk portrait */
+         position: relative;
+         overflow: hidden;
+      }
+      
+      .portrait-image img {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         object-position: center;
+      }
+      
+      .portrait-caption {
+         padding: 18px;
+         background: linear-gradient(to bottom, #ffffff, #f8f8f8);
+         border-top: 2px solid #C8A2C8;
+         text-align: center;
+      }
+      
+      .portrait-caption p {
+         margin: 0;
+         color: #555;
+         font-size: 15px;
+         font-style: italic;
+         line-height: 1.6;
+      }
+   </style>
+
+   <div class="portrait-gallery">
+      <div class="portrait-item">
+         <div class="portrait-image">
+            <img src="bunga1.jpeg" alt="Chocolate Bouquet">
+         </div>
+         <div class="portrait-caption">
+            <p>Made for my friend's birthday</p>
+         </div>
+      </div>
+
+      <div class="portrait-item">
+         <div class="portrait-image">
+            <img src="bunga2.jpeg" alt="Chocolate Bouquet with Balloon">
+         </div>
+         <div class="portrait-caption">
+            <p>Especially made for my sister-in-law</p>
+         </div>
+      </div>
+   </div>
+
+</div>
+
+<!-- VIDEO GAMES -->
+<div style="margin-top:35px;">
+   <h4 style="color:#555555; margin-top:35px;">Video Games</h4>
+<p style="text-align: justify; color:#444444; line-height:1.7;">
+    Playing video games helps me relax while enhancing strategic thinking,
+    decision-making, and problem-solving skills.
+</p>
+
+<div class="gallery">
+    <figure>
+        <img src="game1.jpeg" alt="Strategy game">
+        <strong style="color: #444;"><strong style="color: #444;">PUBG Mobile</strong><br></strong><br>
+        <figcaption>Team-based gaming that encourages communication and cooperation.</figcaption>
+    </figure>
+
+    <figure>
+        <img src="game2.jpeg" alt="Team-based game">
+        <strong style="color: #444;"><strong style="color: #444;">Grand Theft Auto: San Andreas </strong><br></strong><br>
+        <figcaption>Overcoming in-game challenges through problem-solving.</figcaption>
+    </figure>
+
+    <figure>
+        <img src="game3.jpeg" alt="Sims">
+        <strong style="color: #444;"><strong style="color: #444;">The Sims 3</strong><br></strong><br>
+        <figcaption>Engaging in strategy-based gameplay that requires planning.</figcaption>
+    </figure>
+</div>
+
+    </div>
+</section>
+
+
+<!-- RESUME PAGE -->
+<section id="resume" class="page">
+    <h2 style="color: #444;">Resume</h2>
+
+    <div class="card">
+        <!-- Container with formal photo -->
+        <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 30px;">
+            <!-- Foto di atas -->
+            <div style="width: 180px; height: 180px; border: 1px solid black; padding: 3px; margin-bottom: 20px;">
+                <img src="gambar2.jpg"  alt="Formal Profile Photo" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            
+            <!-- Info bowoh gamba -->
+            <div style="text-align: center;">
+                <h3 style="margin: 0 0 px 0; color: #444; font-size: 1.4rem;">SITI NOR SYAHIRAH IZZATI BINTI MAT SAKRI</h3>
+                <p style="margin: 0 0 8px 0; font-size: 16px; color: #555; font-weight: bold;">
+                    Bachelor of Business in Service Management (Honours)
+                </p>
+                <p style="margin: 0 0 15px 0; font-size: 14px; color: #666;">
+                    Faculty of Business and Management
+                </p>
+                
+                <!-- Contact info -->
+                <div style="color: #2F4F4F; background-color: #f8f9fa; padding: 15px; border-radius: 8px; text-align: left; max-width: 300px; margin: 0 auto;">
+                    <div style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+                        <div style="width: 80px; flex-shrink: 0; font-weight: bold;">Email:</div>
+                        <div>2024250978@student.uitm.edu.my</div>
+                    </div>
+                    <div style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+                        <div style="width: 80px; flex-shrink: 0; font-weight: bold;">Phone:</div>
+                        <div>011-51660052</div>
+                    </div>
+                    <div style="display: flex; align-items: flex-start;">
+                        <div style="width: 80px; flex-shrink: 0; font-weight: bold;">Location:</div>
+                        <div>Puncak Alam, Selangor</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Garis pemisah -->
+        <hr style="border: none; height: 2px; background-color: #eee; margin: 30px 0;">
+        
+        <!-- Profile Summary -->
+        <div style="margin-bottom: 30px;">
+            <h3 style="color: #444; margin-bottom: 15px; padding-bottom: 8px; border-bottom: 2px solid #444; font-size: 1.3rem;">Profile Summary</h3>
+            <p style="color: #2F4F4F; text-align: justify; line-height: 1.7; font-size: 16px;">
+                A dedicated Service Management student from the Faculty of Business and Management with an interest in service quality, business operations, and customer satisfaction. Possesses good communication skills, a positive attitude, and a strong willingness to learn and grow in professional service environments. Committed to applying academic knowledge to real-world business challenges and contributing to organizational success through exceptional service delivery.
+            </p>
+        </div>
+        
+        <!-- Education -->
+        <div style="margin-bottom: 30px;">
+            <h3 style="color: #444; margin-bottom: 15px; padding-bottom: 8px; border-bottom: 2px solid #444; font-size: 1.3rem;">Education Background</h3>
+            <div style="display: flex; margin-bottom: 20px; background-color: #f9f9f9; padding: 15px; border-radius: 6px;">
+                <div style="width: 120px; flex-shrink: 0; font-weight: bold; color: #2F4F4F;">Oct 2023 - Present</div>
+                <div>
+                    <strong style="color: #2F4F4F; font-size: 16px;">Bachelor of Business in Service Management (Honours)</strong><br>
+                    <span style="color: #555; font-size: 15px;">Universiti Teknologi Mara Cawangan Selangor Kampus Puncak Alam</span><br>
+                    <span style="font-size: 14px; color: #444; margin-top: 5px; display: inline-block;">
+                        Relevant Coursework: Service Operations, Customer Experience Management, Business Analytics, Service Innovation, Marketing Principles
+                    </span>
+                </div>
+            </div>
+
+            <div style="display: flex; margin-bottom: 20px; background-color: #f9f9f9; padding: 15px; border-radius: 6px;">
+                <div style="width: 120px; flex-shrink: 0; font-weight: bold; color: #2F4F4F;">Jul 2019 - Mar 2023</div>
+                <div>
+                    <strong style=" color: #2F4F4F; font-size: 16px;">Diploma in Science Computer and Mathematics</strong><br>
+                    <span style="color: #555; font-size: 15px;">Universiti Teknologi Mara Cawangan Terengganu Kampus Kuala Terengganu</span><br>
+                    <span style="font-size: 14px; color: #444; margin-top: 5px; display: inline-block;">
+                        Relevant Coursework: Information System Development, Discrete Mathematic, Object-Oriented Programming, Fundamental of Data Structure, Practical Approach of Operating Systems, Introduction to Web and Mobile Application etc.
+                    </span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Work Experience -->
+<div style="margin-bottom: 30px;">
+    <h3 style="color: #444; margin-bottom: 20px; padding-bottom: 8px; border-bottom: 2px solid #444; font-size: 1.3rem;">Work Experience</h3>
+    
+    <!-- Experience 1: Service Desk Agent -->
+    <div style="margin-bottom: 25px; background-color: #f9f9f9; padding: 20px; border-radius: 8px; border-left: 4px solid #1f3c88;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px;">
+            <div>
+                <strong style="font-size: 17px; color: #2F4F4F;">Service Desk Agent</strong><br>
+                <em style="color: #555; font-size: 15px;">Beyond2U Sdn Bhd</em>
+            </div>
+            <div style="color: #666; font-weight: 600; background-color: #e8f0fe; padding: 4px 12px; border-radius: 4px;">
+                May 2023 – October 2024
+            </div>
+        </div>
+        <ul style="margin: 10px 0 0 20px; line-height: 1.6; list-style-type: disc;">
+            <li style="color: #444; margin-bottom: 8px;">Effectively resolve Level 1 service desk technical queries as per deliverables outlined</li>
+            <li style="color: #444; margin-bottom: 8px;">Provides technical support and assistance to customers with IT issues</li>
+            <li style="color: #444;margin-bottom: 8px;">Handle incoming calls, emails, tickets, and work with IT technicians to resolve problems</li>
+        </ul>
+    </div>
+    
+    <!-- Experience 2: Internship -->
+    <div style="margin-bottom: 25px; background-color: #f9f9f9; padding: 20px; border-radius: 8px; border-left: 4px solid #3498db;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px;">
+            <div>
+                <strong style="font-size: 17px; color: #2F4F4F;">Intern – Facility Management Unit</strong><br>
+                <em style="color: #555; font-size: 15px;">UiTM Kuala Terengganu</em>
+            </div>
+            <div style="color: #666; font-weight: 600; background-color: #e8f0fe; padding: 4px 12px; border-radius: 4px;">
+                October 2022 – March 2023
+            </div>
+        </div>
+        <ul style="margin: 10px 0 0 20px; line-height: 1.6; list-style-type: disc;">
+            <li style="color: #444; margin-bottom: 8px;">Developed a system to manage air-conditioner data for UiTM campus for all branches in Terengganu using CSS, HTML, PHP and Xampp</li>
+            <li style="color: #444; margin-bottom: 8px;">Collaborated with facility management team to streamline data collection processes</li>
+            <li style="color: #444;">Implemented database solutions for efficient tracking of maintenance schedules</li>
+        </ul>
+    </div>
+    
+    <!-- Experience 3: Part Time Clerk -->
+    <div style="margin-bottom: 25px; background-color: #f9f9f9; padding: 20px; border-radius: 8px; border-left: 4px solid #2ecc71;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px;">
+            <div>
+                <strong style="font-size: 17px; color: #2F4F4F;">Part Time Clerk</strong><br>
+                <em style="color: #555; font-size: 15px;">Shell Rohamas Jalan Gambut, Kuantan, Pahang</em>
+            </div>
+            <div style="color: #666; font-weight: 600; background-color: #e8f0fe; padding: 4px 12px; border-radius: 4px;">
+                Jan 2020 – Feb 2020
+            </div>
+        </div>
+        <ul style="margin: 10px 0 0 20px; line-height: 1.6; list-style-type: disc;">
+            <li style="color: #444; margin-bottom: 8px;">Assisting with account payable and account receivable, including simple bookkeeping and banking tasks</li>
+            <li style="color: #444; margin-bottom: 8px;">Managed customer transactions and maintained accurate financial records</li>
+            <li style="color: #444;">Supported administrative functions and maintained office organization</li>
+        </ul>
+    </div>
+    
+    <!-- Skills Gained -->
+    <div style="background-color: #f0f8ff; padding: 20px; border-radius: 8px; margin-top: 15px;">
+        <h4 style="color: #1f3c88; margin-bottom: 10px; font-size: 1.1rem;">Key Skills Gained:</h4>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px;">
+            <span style="background-color: #e8f0fe; color: #1f3c88; padding: 6px 12px; border-radius: 20px; font-size: 14px; font-weight: 600;">Technical Support</span>
+            <span style="background-color: #e8f0fe; color: #1f3c88; padding: 6px 12px; border-radius: 20px; font-size: 14px; font-weight: 600;">Customer Service</span>
+            <span style="background-color: #e8f0fe; color: #1f3c88; padding: 6px 12px; border-radius: 20px; font-size: 14px; font-weight: 600;">Web Development</span>
+            <span style="background-color: #e8f0fe; color: #1f3c88; padding: 6px 12px; border-radius: 20px; font-size: 14px; font-weight: 600;">PHP & HTML</span>
+            <span style="background-color: #e8f0fe; color: #1f3c88; padding: 6px 12px; border-radius: 20px; font-size: 14px; font-weight: 600;">Financial Administration</span>
+            <span style="background-color: #e8f0fe; color: #1f3c88; padding: 6px 12px; border-radius: 20px; font-size: 14px; font-weight: 600;">Database Management</span>
+            <span style="background-color: #e8f0fe; color: #1f3c88; padding: 6px 12px; border-radius: 20px; font-size: 14px; font-weight: 600;">Problem Solving</span>
+            <span style="background-color: #e8f0fe; color: #1f3c88; padding: 6px 12px; border-radius: 20px; font-size: 14px; font-weight: 600;">Communication Skills</span>
+        </div>
+    </div>
+</div>
+
+        
+        </div>
+        
+        <!-- Skills -->
+        <div style="margin-bottom: 30px;">
+            <h3 style="color: #2F4F4F; margin-bottom: 15px; padding-bottom: 8px; border-bottom: 2px solid #2F4F4F; font-size: 1.3rem;">Skills</h3>
+            <div style="display: flex; flex-wrap: wrap; gap: 25px;">
+                <!-- Professional Skills -->
+                <div style="flex: 1; min-width: 250px; background-color: #f9f9f9; padding: 20px; border-radius: 8px;">
+                    <h4 style="margin: 0 0 15px 0; color: #2F4F4F; font-size: 1.1rem;">Professional Skills</h4>
+                    <ul style="margin: 0; padding-left: 20px;">
+                        <li style=" color: #444; margin-bottom: 8px;">Communication & Interpersonal Skills</li>
+                        <li style="color: #444; margin-bottom: 8px;">Customer Service Excellence</li>
+                        <li style="color: #444; margin-bottom: 8px;">Service Operations Management</li>
+                        <li style="color: #444; margin-bottom: 8px;">Sales & Marketing Fundamentals</li>
+                        <li style="color: #444; margin-bottom: 8px;">Teamwork & Collaboration</li>
+                        <li style="color: #444;margin-bottom: 8px;">Problem-Solving & Critical Thinking</li>
+                        <li style=" color: #444">Time Management & Organization</li>
+                    </ul>
+                </div>
+                
+                <!-- Technical Skills -->
+                <div style="flex: 1; min-width: 250px; background-color: #f9f9f9; padding: 20px; border-radius: 8px;">
+                    <h4 style="margin: 0 0 15px 0; color: #2F4F4F; font-size: 1.1rem;">Technical Skills</h4>
+                    <ul style="margin: 0; padding-left: 20px;">
+                        <li style="color: #444; margin-bottom: 8px;">Microsoft Office Suite</li>
+                        <li style="color: #444; margin-bottom: 8px;">Canva Graphic Design</li>
+                        <li style="color: #444; margin-bottom: 8px;">Basic Data Analysis</li>
+                        <li style="color: #444; margin-bottom: 8px;">Social Media Management</li>
+                        <li style="color: #444;margin-bottom: 8px;">Programming: CSS, C++, HTML, Java, Javascript</li>
+                        <li style=" color: #444;">Customer Relationship Management (CRM) Concepts</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Languages & Extracurricular -->
+        <div style="display: flex; flex-wrap: wrap; gap: 25px; margin-bottom: 30px;">
+            <div style="flex: 1; min-width: 250px;">
+    <div style="background-color: #f9f9f9; padding: 20px; border-radius: 8px;">
+        <h3 style="color: #2F4F4F; margin-bottom: 15px; padding-bottom: 8px; border-bottom: 2px solid #2F4F4F; font-size: 1.2rem;">Languages</h3>
+        
+        <!-- Malay -->
+        <div style="margin-bottom: 12px;">
+            <div style="color: #444; display: flex; justify-content: space-between; margin-bottom: 5px;">
+                <span>Malay</span>
+                <span style="color: #2F4F4F; font-weight: bold;">Native</span>
+            </div>
+            <div style="height: 6px; background-color: #e0e0e0; border-radius: 3px; overflow: hidden;">
+                <div style="width: 100%; height: 100%; background-color: #6D095A;"></div>
+            </div>
+        </div>
+        
+        <!-- English -->
+        <div style="margin-bottom: 12px;">
+            <div style="color: #444; display: flex; justify-content: space-between; margin-bottom: 5px;">
+                <span>English</span>
+                <span style="color: #2F4F4F; font-weight: bold;">Fluent</span>
+            </div>
+            <div style="height: 6px; background-color: #e0e0e0; border-radius: 3px; overflow: hidden;">
+                <div style="width: 85%; height: 100%; background-color: #6D095A;"></div>
+            </div>
+        </div>
+        
+        <!-- Arabic -->
+        <div>
+            <div style="color: #444; display: flex; justify-content: space-between; margin-bottom: 5px;">
+                <span>Arabic</span>
+                <span style="color: #2F4F4F; font-weight: bold;">Intermediate</span>
+            </div>
+            <div style="height: 6px; background-color: #e0e0e0; border-radius: 3px; overflow: hidden;">
+                <div style="width: 60%; height: 100%; background-color: #6D095A;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+            
+            <div style="flex: 1; min-width: 250px;">
+                <div style="background-color: #f9f9f9; padding: 20px; border-radius: 8px;">
+                    <h3 style="color: #2F4F4F; margin-bottom: 15px; padding-bottom: 8px; border-bottom: 2px solid #2F4F4F; font-size: 1.2rem;">Extracurricular Activities</h3>
+                    <ul style="margin: 0; padding-left: 20px;">
+                        <li style="color: #444; margin-bottom: 8px;">Involved in group discussions and collaborative academic projects
+                        </li>
+
+                        <li style="color: #444;">Developed teamwork and basic leadership skills through student organizations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Career Objective -->
+        <div style="margin-bottom: 30px; background-color: #f0f5ff; padding: 25px; border-radius: 8px; border-left: 5px solid #1f3c88;">
+            <h3 style="color: #2F4F4F; margin-bottom: 15px; font-size: 1.3rem;">Career Objective</h3>
+            <p style="color: #444; text-align: justify; line-height: 1.7; font-size: 16px;">
+                To gain practical experience in the service industry and continuously develop professional skills in service management, customer experience, and business operations. Seeking internship opportunities to apply academic knowledge in real-world settings, with the goal of contributing to organizational success through exceptional service delivery and customer satisfaction.
+            </p>
+        </div>
+        
+        <!-- References -->
+<div style="margin-top: 40px; ">
+    <h3 style="color: #2F4F4F; margin-bottom: 25px; padding-bottom: 8px; border-bottom: 2px solid #444; font-size: 1.3rem;">References</h3>
+    
+    <div style="display: flex; flex-wrap: wrap; gap: 25px;">
+        
+        <!-- Reference 1: ALIA-->
+        <div style="flex: 1; min-width: 300px; background-color: #f9f9f9; padding: 25px; border-radius: 10px; border-left: 4px solid #1f3c88;">
+            <div style="margin-bottom: 15px;">
+                <!-- Nama -->
+                <h4 style="color: #2c3e50; margin-bottom: 5px; font-size: 1.2rem; font-weight: 700;">Nur Alia Binti Khairudin</h4>
+                <!-- Jawatan -->
+                <p style="color: #2F4F4F; font-weight: 600; margin-bottom: 3px; font-size: 1.1rem;">System Engineer</p>
+                <!-- Company -->
+                <p style="color: #555; margin-bottom: 10px; font-size: 15px;">Beyond2U Sdn Bhd</p>
+                
+                <!-- Contact Info -->
+                <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                    <div style="background-color: #e8f0fe; padding: 8px 12px; border-radius: 6px; font-size: 14px; width: 100%;">
+                        <strong>Email:</strong> aliakhairudin@beyond2u.com
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <div style="background-color: #e8f0fe; padding: 8px 12px; border-radius: 6px; font-size: 14px; width: 100%;">
+                        <strong>Phone:</strong> 018-5722565
+                    </div>
+                </div>
+            </div>
+            <div style="background-color: #f0f5ff; padding: 12px; border-radius: 6px; font-size: 13px; color: #555;">
+                <em>Colleague from technical team during Service Desk Agent position</em>
+            </div>
+        </div>
+        
+        <!-- Reference 2: SHAFIQ -->
+        <div style="flex: 1; min-width: 300px; background-color: #f9f9f9; padding: 25px; border-radius: 10px; border-left: 4px solid #3498db;">
+            <div style="margin-bottom: 15px;">
+                <!-- Nama -->
+                <h4 style="color: #2c3e50; margin-bottom: 5px; font-size: 1.2rem; font-weight: 700;">Muhammad Nur Shafiq Bin Mohd Atas</h4>
+                <!-- Jawatan -->
+                <p style="color: #2F4F4F; font-weight: 600; margin-bottom: 3px; font-size: 1.1rem;">Project Team Lead</p>
+                <!-- Company -->
+                <p style="color: #555; margin-bottom: 10px; font-size: 15px;">Beyond2U Sdn Bhd</p>
+                
+                <!-- Contact Info -->
+                <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                    <div style="background-color: #e8f0fe; padding: 8px 12px; border-radius: 6px; font-size: 14px; width: 100%;">
+                        <strong>Email:</strong> shafiqmohdatas@gmail.com
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <div style="background-color: #e8f0fe; padding: 8px 12px; border-radius: 6px; font-size: 14px; width: 100%;">
+                        <strong>Phone:</strong> 018-9456711
+                    </div>
+                </div>
+            </div>
+            <div style="background-color: #f0f5ff; padding: 12px; border-radius: 6px; font-size: 13px; color: #555;">
+                <em>Colleague from technical team during Service Desk Agent position</em>
+            </div>
+        </div>
+        
+    </div>
+    
+    </div>
+
+
+</section>
+
+<!-- BLOG PAGE -->
+<section id="blog" class="page">
+    <h2>Blog, Insights & Experiences</h2>
+
+    <div class="card blog-article">
+    <h3>My Experience with Service Quality: From Theory to Practice</h3>
+    <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
+        Published: January 15, 2026 | Category: Service Management | Based on: CSM506 Field Trip
+    </p>
+    <div class="blog-preview">
+        <p>
+            Through my Service Experience Management course and field trip to Melaka, I've witnessed firsthand 
+            how service quality directly impacts customer satisfaction and business success...
+        </p>
+    </div>
+    <div class="blog-full-content" style="display: none;">
+        <p>
+            As a Service Management student, I've learned that service quality isn't just a theoretical concept—it's 
+            the foundation of successful customer relationships. During our academic trip to Melaka and my analysis 
+            of Calanthe Art Cafe, I observed how different service elements create memorable customer experiences.
+        </p>
+        
+        <p><strong>Key Insights from My Field Research:</strong></p>
+        <ul>
+            <li><strong>First Impressions Matter:</strong> At Calanthe Art Cafe, the unique art gallery atmosphere 
+                immediately creates a positive impression that sets the tone for the entire experience</li>
+            <li><strong>Consistency is Crucial:</strong> From my Tealive case study, I learned that maintaining 
+                consistent service quality across franchise locations presents both challenges and opportunities</li>
+            <li><strong>Employee Empowerment:</strong> Service Desk Agent experience taught me that frontline 
+                staff need proper training and authority to resolve customer issues effectively</li>
+            <li><strong>Technology Enhances, Not Replaces:</strong> My web development project for UiTM's facility 
+                management showed how technology can streamline operations while maintaining human connection</li>
+        </ul>
+        
+        <p><strong>Practical Applications from My Projects:</strong></p>
+        <ul>
+            <li><strong>Sales Campaign Experience:</strong> Selling desserts taught me that service quality extends 
+                beyond the product—it includes how we present, explain, and follow up with customers</li>
+            <li><strong>Community Engagement:</strong> The "Be a Buddy, Not a Bully" program reinforced that service 
+                quality principles apply equally in educational and community settings</li>
+            <li><strong>Academic Trip Coordination:</strong> As Secretary, I learned that logistical planning and 
+                clear communication are essential service quality components in event management</li>
+        </ul>
+        
+        <p>
+            These experiences have shown me that service quality isn't a one-time achievement but an ongoing 
+            commitment. It requires continuous monitoring, employee training, customer feedback integration, 
+            and adaptability to changing expectations—skills I'm actively developing through my academic 
+            projects and practical experiences.
+        </p>
+    </div>
+    <a href="javascript:void(0);" class="read-more-btn" onclick="toggleBlogContent(this)" 
+       style="color: #1f3c88; font-weight: bold; text-decoration: none; display: inline-block; margin-top: 10px;">
+        Read more →
+    </a>
+</div>
+
+    <<div class="card blog-article">
+    <h3>Sales & Service Integration: Lessons from Our Dessert Campaign</h3>
+    <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
+        Published: January 10, 2026 | Category: Sales Strategy | Based on: MKT572 Sales Campaign
+    </p>
+    <div class="blog-preview">
+        <p>
+            Our dessert sales campaign at Padang Mahsyar taught me that successful sales management is about 
+            creating value, not just making transactions...
+        </p>
+    </div>
+    <div class="blog-full-content" style="display: none;">
+        <p>
+            The MKT572 Sales Management project gave me hands-on experience in planning and executing a real 
+            sales campaign. Setting up our dessert stall at Padang Mahsyar was challenging but incredibly 
+            educational—we not only broke even but made a profit by applying sales principles we learned in class.
+        </p>
+        
+        <p><strong>Key Learnings from Our Sales Campaign:</strong></p>
+        <ul>
+            <li><strong>Customer-Centric Approach:</strong> We discovered that customers responded better to 
+                explanations about our homemade ingredients than to aggressive sales pitches</li>
+            <li><strong>Upselling Strategy:</strong> By offering dessert combos at a slightly higher price, 
+                we increased our average transaction value by 25%</li>
+            <li><strong>Inventory Management:</strong> Balancing product variety with inventory control was 
+                crucial—we learned to forecast demand based on time of day and customer flow</li>
+            <li><strong>Location Optimization:</strong> Choosing Padang Mahsyar parking area gave us high 
+                visibility but also taught us about timing—mornings were for breakfast desserts, afternoons 
+                for sweet treats</li>
+        </ul>
+        
+        <p><strong>Connecting Sales to Service Excellence:</strong></p>
+        <ul>
+            <li><strong>Post-Sale Service:</strong> We offered simple packaging tips for customers taking 
+                desserts home, which turned into unsolicited testimonials</li>
+            <li><strong>Feedback Collection:</strong> We used sales interactions to gather feedback about 
+                flavors and presentation, showing customers we valued their opinions</li>
+            <li><strong>Relationship Building:</strong> Regular customers from nearby offices began to 
+                recognize our team, creating a sense of community around our stall</li>
+            <li><strong>Ethical Sales Practices:</strong> We were transparent about ingredients and pricing, 
+                which built trust and differentiated us from competitors</li>
+        </ul>
+        
+        <p><strong>Application to Service Management:</strong></p>
+        <p>
+            This experience reinforced that sales and service are interconnected. Good sales management 
+            creates positive first impressions that set the stage for ongoing service relationships. It 
+            taught me that:
+        </p>
+        <ul>
+            <li>Every sales interaction is a service opportunity</li>
+            <li>Customer education during sales builds long-term loyalty</li>
+            <li>Ethical sales practices align with service excellence principles</li>
+            <li>Sales data provides insights for service improvement</li>
+        </ul>
+        
+        <p>
+            Moving forward, I see sales management not as separate from service delivery but as its crucial 
+            first chapter—one that determines whether customers will return for the rest of the story.
+        </p>
+    </div>
+    <a href="javascript:void(0);" class="read-more-btn" onclick="toggleBlogContent(this)"
+       style="color: #1f3c88; font-weight: bold; text-decoration: none; display: inline-block; margin-top: 10px;">
+        Read more →
+    </a>
+</div>
+
+    <div class="card blog-article">
+    <h3>Technology in Service Management: My Journey from Code to Customer Experience</h3>
+    <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
+        Published: January 8, 2026 | Category: Technology & Service | Based on: Past IT Experience & Academic Projects
+    </p>
+    <div class="blog-preview">
+
+        <p>
+            With my background in IT service and web development, I've seen how technology can transform 
+            service delivery when implemented thoughtfully and strategically...
+        </p>
+    </div>
+    <div class="blog-full-content" style="display: none;">
+        <p>
+            My journey from Computer Science diploma to Service Management has given me a unique perspective 
+            on technology integration. Having worked as a Service Desk Agent and developed systems for facility 
+            management, I understand both the technical and human aspects of service technology.
+        </p>
+        
+        <p><strong>Practical Technology Experience:</strong></p>
+        <ul>
+            <li><strong>Service Desk Operations:</strong> At Beyond2U, I saw how ticketing systems, knowledge 
+                bases, and remote support tools can streamline technical service delivery while maintaining 
+                personal connection</li>
+            <li><strong>Web Development Project:</strong> Creating an air-conditioner management system for 
+                UiTM taught me how custom solutions can address specific service challenges—reducing manual 
+                work by 70% while improving response times</li>
+            <li><strong>Academic Project Management:</strong> Coordinating our Melaka field trip required 
+                digital tools for communication, scheduling, and documentation—balancing efficiency with 
+                personal touch</li>
+            <li><strong>Sales Technology:</strong> Our dessert campaign used simple digital payment options 
+                alongside traditional cash, meeting diverse customer preferences</li>
+        </ul>
+        
+        <p><strong>Technology Lessons for Service Management:</strong></p>
+        <ul>
+            <li><strong>Human-Centered Design:</strong> Technology should solve real problems—our facility 
+                management system worked because it addressed specific pain points of maintenance staff</li>
+            <li><strong>Balance Automation with Personalization:</strong> As a Service Desk Agent, I learned 
+                when to use automated responses and when to provide personalized solutions</li>
+            <li><strong>Accessibility Matters:</strong> Service technology must be usable by diverse 
+                stakeholders—from tech-savvy students to staff with varying digital literacy</li>
+            <li><strong>Data-Informed Decisions:</strong> Technology provides valuable data for service 
+                improvement, from customer feedback trends to operational efficiency metrics</li>
+        </ul>
+        
+        <p><strong>Future Technology Applications:</strong></p>
+        <p>
+            Looking at emerging trends through my service management lens, I'm particularly interested in:
+        </p>
+        <ul>
+            <li><strong>AI-Powered Service Analytics:</strong> Using data to predict service needs before 
+                issues arise, similar to preventive maintenance tracking</li>
+            <li><strong>Mobile Service Platforms:</strong> Developing apps that empower customers while 
+                gathering valuable usage data for service improvement</li>
+            <li><strong>IoT Integration:</strong> Applying my facility management experience to smart service 
+                environments in hospitality or retail</li>
+            <li><strong>Digital Ethics:</strong> Ensuring technology respects customer privacy and aligns 
+                with ethical service principles learned in CSM556</li>
+        </ul>
+        
+        <p>
+            My unique combination of technical skills and service management knowledge positions me to 
+            bridge the gap between technology implementation and customer experience—ensuring that digital 
+            solutions enhance rather than replace the human elements of service.
+        </p>
+    </div>
+    <a href="javascript:void(0);" class="read-more-btn" onclick="toggleBlogContent(this)"
+       style="color: #1f3c88; font-weight: bold; text-decoration: none; display: inline-block; margin-top: 10px;">
+        Read more →
+    </a>
+</div>
+
+<!-- TAMBAH INI DALAM BAHAGIAN BLOG, SELEPAS ARTICLE YANG LAIN -->
+<div class="card blog-article" style="border-left: 5px solid #8A2BE2;">
+    <h3>ISP Project: CoolBlog Prototype System (Justinmind & MySQL)</h3>
+    <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
+        Date: March 2023 | Category: Diploma Project | Subject: Information System Development | Tools: Justinmind, MySQL, SWOT Analysis
+    </p>
+    
+    <!-- PREVIEW DENGAN GAMBAR PROTOTYPE -->
+    <div class="blog-preview">
+        <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+            <div style="flex: 0 0 120px; position: relative;">
+                <img src="coolblog-preview.jpg" alt="CoolBlog Prototype Preview" 
+                     style="width: 100%; height: 80px; object-fit: cover; border-radius: 6px; border: 2px solid #8A2BE2;">
+                <div style="position: absolute; top: -8px; right: -8px; background: #8A2BE2; color: white; padding: 2px 6px; border-radius: 3px; font-size: 10px; font-weight: bold;">
+                    PROTOTYPE
+                </div>
+            </div>
+            <div style="flex: 1;">
+                <p>
+                    Developed a full prototype for CoolBlog system using Justinmind with MySQL database integration. This project taught me valuable lessons about SWOT analysis in system development...
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- FULL CONTENT -->
+    <div class="blog-full-content" style="display: none;">
+        
+        <!-- BANNER GAMBAR UTAMA -->
+        <div style="text-align: center; margin-bottom: 25px; position: relative;">
+            <img src="cool4.jpeg" alt="CoolBlog System Banner" 
+                 style="max-width: 100%; height: 300px; object-fit: cover; border-radius: 10px; border: 3px solid #8A2BE2;">
+            <div style="position: absolute; bottom: 15px; left: 15px; background: rgba(31, 60, 136, 0.9); color: white; padding: 10px 20px; border-radius: 5px;">
+                <h4 style="margin: 0; font-size: 18px;">Information System Project</h4>
+                <p style="margin: 5px 0 0 0; font-size: 14px;">Diploma in Computer Science & Mathematics</p>
+            </div>
+        </div>
+        
+        <!-- PROJECT OVERVIEW -->
+        <div style="background: #f0f5ff; padding: 20px; border-radius: 10px; margin-bottom: 25px;">
+            <h4 style="color: #1f3c88; margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                <i class="fas fa-info-circle"></i> Project Overview
+            </h4>
+            <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 15px;">
+                <div style="flex: 1; min-width: 200px; background: white; padding: 15px; border-radius: 8px;">
+                    <strong style="color: #555;">Project Name:</strong> CoolBlog System<br>
+                    <strong style="color: #555;">Duration:</strong> 3 Months<br>
+                    <strong style="color: #555;">Team Size:</strong> 4 Members
+                </div>
+                <div style="flex: 1; min-width: 200px; background: white; padding: 15px; border-radius: 8px;">
+                    <strong style="color: #555;">Prototype Tool:</strong> Justinmind<br>
+                    <strong style="color: #555;">Database:</strong> MySQL<br>
+                    <strong style="color: #555;">Analysis Method:</strong> SWOT
+                </div>
+            </div>
+            <p style="text-align: justify; line-height: 1.7;">
+                The CoolBlog project aimed to develop a comprehensive blogging platform prototype for content creators. 
+                As part of my Information System Development course, I was responsible for creating interactive wireframes 
+                using Justinmind and designing the database structure with MySQL. This project provided hands-on experience 
+                in system analysis, design, and prototype evaluation.
+            </p>
+        </div>
+        
+        <!-- PROTOTYPE IMAGES SECTION -->
+        <div style="margin-bottom: 30px;">
+            <h4 style="color: #444; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #8A2BE2;">
+                <i class="fas fa-palette"></i> Prototype Screens & Wireframes
+            </h4>
+            
+            <!-- WIREFRAME GALLERY -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; margin-bottom: 25px;">
+                
+                <!-- SCREEN 1: Homepage -->
+                <div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+                    <div style="height: 150px; overflow: hidden;">
+                        <img src="cool1.jpeg" alt="Homepage Design" 
+                             style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;"
+                             onmouseover="this.style.transform='scale(1.05)'" 
+                             onmouseout="this.style.transform='scale(1)'">
+                    </div>
+                    <div style="padding: 15px;">
+                        <h5 style="margin: 0 0 8px 0; color: #333;">Homepage Design</h5>
+                        <p style="margin: 0; font-size: 13px; color: #666;">Main landing page with featured blogs and categories</p>
+                    </div>
+                </div>
+                
+                <!-- SCREEN 2: Dashboard -->
+                <div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+                    <div style="height: 150px; overflow: hidden;">
+                        <img src="cool2.jpeg" alt="User Dashboard" 
+                             style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;"
+                             onmouseover="this.style.transform='scale(1.05)'" 
+                             onmouseout="this.style.transform='scale(1)'">
+                    </div>
+                    <div style="padding: 15px;">
+                        <h5 style="margin: 0 0 8px 0; color: #333;">User Dashboard</h5>
+                        <p style="margin: 0; font-size: 13px; color: #666;">Personalized dashboard for blog management</p>
+                    </div>
+                </div>
+                
+                <!-- SCREEN 3: Blog Editor -->
+                <div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+                    <div style="height: 150px; overflow: hidden;">
+                        <img src="cool3.jpeg" alt="Blog Editor" 
+                             style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;"
+                             onmouseover="this.style.transform='scale(1.05)'" 
+                             onmouseout="this.style.transform='scale(1)'">
+                    </div>
+                    <div style="padding: 15px;">
+                        <h5 style="margin: 0 0 8px 0; color: #333;">Blog Editor</h5>
+                        <p style="margin: 0; font-size: 13px; color: #666;">WYSIWYG editor for creating blog posts</p>
+                    </div>
+                </div>
+                
+                <!-- SCREEN 4: Database Design -->
+                <div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+                    <div style="height: 150px; overflow: hidden; background: #f8f9fa; display: flex; align-items: center; justify-content: center;">
+                        <div style="text-align: center; padding: 20px;">
+                            <i class="fas fa-database" style="font-size: 40px; color: #8A2BE2;"></i>
+                            <p style="margin: 10px 0 0 0; font-weight: bold; color: #333;">MySQL Database Schema</p>
+                        </div>
+                    </div>
+                    <div style="padding: 15px;">
+                        <h5 style="margin: 0 0 8px 0; color: #333;">Database Schema</h5>
+                        <p style="margin: 0; font-size: 13px; color: #666;">ER Diagram showing table relationships</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <!-- PROTOTYPE INTERACTIVITY DEMO -->
+            <div style="background: linear-gradient(135deg, #f8f0ff 0%, #e8f0fe 100%); padding: 20px; border-radius: 10px; margin-top: 20px;">
+                <h5 style="color: #333; margin-bottom: 10px;">
+                    <i class="fas fa-mouse-pointer"></i> Interactive Features in Justinmind
+                </h5>
+                <ul style="margin: 0; padding-left: 20px; color: #555;">
+                    <li>Clickable navigation menus and buttons</li>
+                    <li>Form validation for user registration</li>
+                    <li>Dynamic content loading simulation</li>
+                    <li>User flow from homepage to blog creation</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- DATABASE DESIGN SECTION -->
+        <div style="margin-bottom: 30px;">
+            <h4 style="color: #444; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #8A2BE2;">
+                <i class="fas fa-database"></i> MySQL Database Structure
+            </h4>
+            
+            <div style="background: white; padding: 20px; border-radius: 10px; border: 1px solid #ddd;">
+                <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+                    <div style="flex: 1; min-width: 300px;">
+                        <h5 style="color: #1f3c88; margin-bottom: 15px;">Main Tables Created:</h5>
+                        <ul style="margin: 0; padding-left: 20px;">
+                            <li><strong>Users Table:</strong> Store user information and credentials</li>
+                            <li><strong>Blogs Table:</strong> Main content storage with categories</li>
+                            <li><strong>Comments Table:</strong> User comments on blog posts</li>
+                            <li><strong>Categories Table:</strong> Blog categorization system</li>
+                            <li><strong>Likes Table:</strong> Track user engagement</li>
+                        </ul>
+                    </div>
+                    <div style="flex: 1; min-width: 300px;">
+                        <h5 style="color: #1f3c88; margin-bottom: 15px;">Key SQL Queries:</h5>
+                        <pre style="background: #f5f5f5; padding: 15px; border-radius: 5px; overflow-x: auto; font-size: 13px; margin: 0;">
+-- Example: Create Blogs Table
+CREATE TABLE blogs (
+    blog_id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT,
+    title VARCHAR(255),
+    content TEXT,
+    category_id INT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(user_id),
+    FOREIGN KEY (category_id) REFERENCES categories(category_id)
+);</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SWOT ANALYSIS SECTION -->
+        <div style="margin-bottom: 30px;">
+            <h4 style="color: #444; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #8A2BE2;">
+                <i class="fas fa-chart-line"></i> SWOT Analysis & Key Learnings
+            </h4>
+            
+            <p style="text-align: justify; line-height: 1.7; margin-bottom: 20px;">
+                This project introduced me to SWOT analysis in system development. Here's how I applied it to evaluate the CoolBlog prototype:
+            </p>
+            
+            <!-- SWOT GRID -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 25px;">
+                
+                <!-- STRENGTHS -->
+                <div style="background: #e8f5e8; padding: 20px; border-radius: 10px; border-top: 5px solid #4CAF50;">
+                    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+                        <div style="background: #4CAF50; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <h5 style="margin: 0; color: #2E7D32;">Strengths</h5>
+                    </div>
+                    <ul style="margin: 0; padding-left: 20px; color: #555;">
+                        <li>User-friendly interface design</li>
+                        <li>Scalable database architecture</li>
+                        <li>Comprehensive feature set</li>
+                        <li>Responsive design for mobile</li>
+                    </ul>
+                </div>
+                
+                <!-- WEAKNESSES -->
+                <div style="background: #fff3e0; padding: 20px; border-radius: 10px; border-top: 5px solid #FF9800;">
+                    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+                        <div style="background: #FF9800; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <h5 style="margin: 0; color: #EF6C00;">Weaknesses</h5>
+                    </div>
+                    <ul style="margin: 0; padding-left: 20px; color: #555;">
+                        <li>Limited real-time collaboration features</li>
+                        <li>Basic search functionality</li>
+                        <li>No built-in analytics dashboard</li>
+                        <li>Learning curve for advanced features</li>
+                    </ul>
+                </div>
+                
+                <!-- OPPORTUNITIES -->
+                <div style="background: #e3f2fd; padding: 20px; border-radius: 10px; border-top: 5px solid #2196F3;">
+                    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+                        <div style="background: #2196F3; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h5 style="margin: 0; color: #1565C0;">Opportunities</h5>
+                    </div>
+                    <ul style="margin: 0; padding-left: 20px; color: #555;">
+                        <li>Integration with social media platforms</li>
+                        <li>Monetization features for bloggers</li>
+                        <li>AI-powered content suggestions</li>
+                        <li>Mobile app development</li>
+                    </ul>
+                </div>
+                
+                <!-- THREATS -->
+                <div style="background: #ffebee; padding: 20px; border-radius: 10px; border-top: 5px solid #F44336;">
+                    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+                        <div style="background: #F44336; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h5 style="margin: 0; color: #C62828;">Threats</h5>
+                    </div>
+                    <ul style="margin: 0; padding-left: 20px; color: #555;">
+                        <li>Competition from established platforms</li>
+                        <li>Data privacy regulations</li>
+                        <li>Security vulnerabilities</li>
+                        <li>Rapid technology changes</li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+            <!-- SWOT INSIGHTS -->
+            <div style="background: #f8f9ff; padding: 25px; border-radius: 10px; margin-top: 20px; border-left: 5px solid #8A2BE2;">
+                <h5 style="color: #333; margin-bottom: 15px;">
+                    <i class="fas fa-lightbulb"></i> Key Insights from SWOT Analysis
+                </h5>
+                <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 15px;">
+                    <div style="background: #8A2BE2; color: white; padding: 10px; border-radius: 8px; flex-shrink: 0;">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div>
+                        <p style="margin: 0; line-height: 1.7;">
+                            The SWOT analysis taught me to think critically about system design from multiple perspectives. 
+                            I learned that while our prototype had strong technical foundations (strengths), we needed to 
+                            address user experience gaps (weaknesses) and consider market competition (threats) alongside 
+                            growth potential (opportunities).
+                        </p>
+                    </div>
+                </div>
+                <p style="margin: 0; font-style: italic; color: #666; padding-left: 10px; border-left: 3px solid #ddd;">
+                    "SWOT analysis is not just a business tool—it's a critical thinking framework that helps developers 
+                    create more robust, user-centered systems by anticipating challenges and leveraging opportunities."
+                </p>
+            </div>
+        </div>
+        
+        <!-- SKILLS DEVELOPED -->
+        <div style="margin-bottom: 25px;">
+            <h4 style="color: #444; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid #8A2BE2;">
+                <i class="fas fa-tools"></i> Skills & Technologies Developed
+            </h4>
+            
+            <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 15px;">
+                <span style="background: #e8f0fe; color: #1f3c88; padding: 8px 15px; border-radius: 20px; font-size: 14px; font-weight: 600;">
+                    <i class="fas fa-mouse-pointer"></i> Justinmind Prototyping
+                </span>
+                <span style="background: #e8f0fe; color: #1f3c88; padding: 8px 15px; border-radius: 20px; font-size: 14px; font-weight: 600;">
+                    <i class="fas fa-database"></i> MySQL Database Design
+                </span>
+                <span style="background: #e8f0fe; color: #1f3c88; padding: 8px 15px; border-radius: 20px; font-size: 14px; font-weight: 600;">
+                    <i class="fas fa-chart-bar"></i> SWOT Analysis
+                </span>
+                <span style="background: #e8f0fe; color: #1f3c88; padding: 8px 15px; border-radius: 20px; font-size: 14px; font-weight: 600;">
+                    <i class="fas fa-sitemap"></i> System Architecture
+                </span>
+                <span style="background: #e8f0fe; color: #1f3c88; padding: 8px 15px; border-radius: 20px; font-size: 14px; font-weight: 600;">
+                    <i class="fas fa-users"></i> Team Collaboration
+                </span>
+                <span style="background: #e8f0fe; color: #1f3c88; padding: 8px 15px; border-radius: 20px; font-size: 14px; font-weight: 600;">
+                    <i class="fas fa-file-alt"></i> Technical Documentation
+                </span>
+            </div>
+        </div>
+        
+        <!-- Exp 3 - ISP250 Prototype using JustInMind and MySQL -->
+        <div style="background: linear-gradient(135deg, #1f3c88 0%, #8A2BE2 100%); color: white; padding: 25px; border-radius: 10px;">
+            <h4 style="margin: 0 0 15px 0; color: white;">
+                <i class="fas fa-star"></i> Project Reflection
+            </h4>
+            <p style="margin: 0; line-height: 1.7;">
+                The CoolBlog prototype project was a pivotal experience in my diploma journey. It bridged theoretical 
+                knowledge with practical application, teaching me how to transform requirements into functional prototypes. 
+                The SWOT analysis component was particularly valuable—it showed me that technical skills must be 
+                complemented by strategic thinking to create systems that are not only functional but also competitive 
+                and user-focused. This project laid the foundation for my interest in service management by demonstrating 
+                how technology serves user needs and business objectives.
+            </p>
+        </div>
+        
+    </div>
+    
+    <!-- READ MORE BUTTON -->
+    <a href="javascript:void(0);" class="read-more-btn" onclick="toggleBlogContent(this)"
+       style="color: #1f3c88; font-weight: bold; text-decoration: none; display: inline-block; margin-top: 10px;">
+        View Project Details →
+    </a>
+</div>
+
+    <!-- ============================================= -->
+    <!--                PENGALAMAN                     -->
+    <!-- ============================================= -->
+
+    <!-- Experience 1: Arabic Roleplay -->
+    <div class="card blog-article" style="border-left: 5px solid #4A90E2;">
+        <h3>Arabic Roleplay Group Project (TAC452)</h3>
+        <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
+            Date: 14th January 2026 | Category: Academic Project | Subject: TAC452 - Arabic Language
+        </p>
+        <div class="blog-preview">
+            <p>
+                A group project focused on Arabic language roleplay, enhancing our communication skills in a business context...
+            </p>
+        </div>
+        <div class="blog-full-content" style="display: none;">
+        
+                <img src="roleplay.jpeg" alt="Service Quality" style="width:100%; max-width:250px; height:auto; border-radius:8px; margin:15px 0;">
+                <p>As part of the TAC452 Arabic Language course, our group participated in a roleplay project designed to 
+                simulate real business scenarios in Arabic. This project challenged us to apply our language skills in 
+                practical situations, focusing on business communication, negotiation, and customer service dialogues.
+            </p>
+            <p><strong>Project Highlights:</strong></p>
+            <ul>
+                <li>Developed and performed a 15-minute business meeting scenario entirely in Arabic</li>
+                <li>Focused on hospitality industry dialogues (hotel check-in, restaurant reservations, customer complaints)</li>
+                <li>Incorporated business etiquette specific to Arabic-speaking cultures</li>
+                <li>Received feedback on pronunciation, vocabulary usage, and cultural appropriateness</li>
+            </ul>
+            <p><strong>Skills Developed:</strong></p>
+            <ul>
+                <li>Arabic business vocabulary expansion</li>
+                <li>Cross-cultural communication awareness</li>
+                <li>Team collaboration in language learning</li>
+                <li>Confidence in using Arabic in professional settings</li>
+            </ul>
+            <p>
+                This experience was particularly valuable for my service management studies, as it emphasized the 
+                importance of language skills in delivering excellent customer service to diverse clientele.
+            </p>
+        </div>
+        <a href="javascript:void(0);" class="read-more-btn" onclick="toggleBlogContent(this)"
+           style="color: #1f3c88; font-weight: bold; text-decoration: none; display: inline-block; margin-top: 10px;">
+            View Details →
+        </a>
+    </div>
+
+    <!-- Experience 2: Sales Campaign -->
+    <div class="card blog-article" style="border-left: 5px solid #FF6B6B;">
+
+        <h3>Sales Campaign - Dessert Business (MKT572)</h3>
+        <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
+            Date: 9th January 2026 | Category: Practical Sales Experience | Subject: MKT572 - Sales Management
+        </p>
+        <div class="blog-preview">
+
+
+            <p>
+                Organized and executed a successful dessert sales campaign at Padang Mahsyar parking area, achieving profit through effective sales strategies...
+            </p>
+        </div>
+        <div class="blog-full-content" style="display: none;">
+
+            <img src="salecampaign1.jpeg" alt="Service Quality" style="width:100%; max-width:250px; height:auto; border-radius:8px; margin:15px 0;">
+            <img src="salecampaign2.jpeg" alt="Service Quality" style="width:100%; max-width:445px; height:auto; border-radius:8px; margin:15px 0;">
+
+            <p>
+                As part of our MKT572 Sales Management course, our team planned and executed a real sales campaign 
+                focusing on dessert products. We set up our stall at the Padang Mahsyar parking area, applying 
+                theoretical sales concepts to a practical business scenario.
+            </p>
+            <p><strong>Campaign Execution:</strong></p>
+            <ul>
+                <li><strong>Location:</strong> Padang Mahsyar parking area (high foot traffic area)</li>
+                <li><strong>Products:</strong> Various desserts (cakes, pastries, traditional kuih)</li>
+                <li><strong>Setup:</strong> Rented canopy, tables, and display trays</li>
+                <li><strong>Timing:</strong> Morning setup, sales from 9:00 AM to 3:00 PM</li>
+                <li><strong>Team:</strong> 5 members with rotating roles (sales, cashier, inventory)</li>
+            </ul>
+            <p><strong>Key Achievements:</strong></p>
+            <ul>
+                <li>Successfully sold out all inventory by 3:00 PM</li>
+                <li>Achieved break-even and generated profit</li>
+                <li>Applied pricing strategies learned in class</li>
+                <li>Implemented upselling techniques (combo deals, dessert packages)</li>
+                <li>Managed inventory effectively to minimize waste</li>
+            </ul>
+            <p><strong>Challenges & Solutions:</strong></p>
+            <ul>
+                <li><strong>Challenge:</strong> Weather uncertainty → <strong>Solution:</strong> Secured sturdy canopy</li>
+                <li><strong>Challenge:</strong> Perishable products → <strong>Solution:</strong> Accurate demand forecasting</li>
+                <li><strong>Challenge:</strong> Competition → <strong>Solution:</strong> Unique product presentation and sampling</li>
+            </ul>
+            <p>
+                This hands-on experience taught me valuable lessons in sales execution, inventory management, 
+                customer interaction, and the importance of location selection in retail sales.
+            </p>
+        </div>
+        <a href="javascript:void(0);" class="read-more-btn" onclick="toggleBlogContent(this)"
+           style="color: #1f3c88; font-weight: bold; text-decoration: none; display: inline-block; margin-top: 10px;">
+            View Details →
+        </a>
+    </div>
+
+    <!-- Experience 3: Ethics Case Study -->
+    <div class="card blog-article" style="border-left: 5px solid #4ECDC4;">
+        <h3>Ethics Case Study Analysis - Tealive (CSM556)</h3>
+        <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
+            Date: 12th January 2026 | Category: Case Study Analysis | Subject: CSM556 - Ethics in Service Management
+        </p>
+        <div class="blog-preview">
+            <p>
+                Conducted an ethical analysis of Tealive, examining their compliance with ethical requirements and contemporary service management issues...
+            </p>
+        </div>
+        <div class="blog-full-content" style="display: none;">
+            <img src="tealive1.jpeg" alt="Service Quality" style="width:100%; max-width:250px; height:auto; border-radius:8px; margin:15px 0;">
+            <p>
+                For our CSM556 Ethics and Contemporary Issues in Service Management course, our group selected 
+                Tealive as our case study company. We analyzed their business practices through an ethical lens, 
+        </p>
+        <p><strong>Project Structure:</strong></p>
+            <ul>
+                <li><strong>Group Size:</strong> 4-5 members with equal contribution</li>
+                <li><strong>Company:</strong> Tealive (beverage chain in Malaysia)</li>
+                <li><strong>Focus Areas:</strong> Ethical practices and contemporary service issues</li>
+                <li><strong>Duration:</strong> 3-week research and analysis period</li>
+                <li><strong>Deliverables:</strong> Written report and presentation</li>
+            </ul>
+            <p><strong>Analysis Areas:</strong></p>
+            <ul>
+                <li><strong>Supply Chain Ethics:</strong> Sourcing of tea leaves and ingredients</li>
+                <li><strong>Labor Practices:</strong> Employee treatment, wages, working conditions</li>
+                <li><strong>Environmental Responsibility:</strong> Packaging waste, recycling initiatives</li>
+                <li><strong>Marketing Ethics:</strong> Advertising claims, target market considerations</li>
+                <li><strong>Product Quality & Safety:</strong> Food safety standards, ingredient transparency</li>
+            </ul>
+            <p><strong>Key Findings:</strong></p>
+            <ul>
+                <li>Tealive's commitment to halal certification and Malaysian market preferences</li>
+                <li>Their "Greener Tomorrow" initiative for sustainable packaging</li>
+                <li>Employee training programs and career development opportunities</li>
+                <li>Community engagement through various CSR activities</li>
+                <li>Challenges in maintaining consistency across franchise locations</li>
+            </ul>
+            <p><strong>Recommendations:</strong></p>
+            <ul>
+                <li>Enhanced transparency in ingredient sourcing</li>
+                <li>Expansion of recycling programs at all outlets</li>
+                <li>Regular ethical audits for franchise compliance</li>
+                <li>Development of more comprehensive sustainability reporting</li>
+            </ul>
+            <p>
+                This project deepened my understanding of how ethical considerations intersect with service 
+                management practices and the importance of corporate social responsibility in today's business landscape.
+            </p>
+        </div>
+        <a href="javascript:void(0);" class="read-more-btn" onclick="toggleBlogContent(this)"
+           style="color: #1f3c88; font-weight: bold; text-decoration: none; display: inline-block; margin-top: 10px;">
+            View Details →
+        </a>
+    </div>
+
+    <!-- Experience 4: Field Trip Presentation -->
+    <div class="card blog-article" style="border-left: 5px solid #FFD166;">
+        <h3>Field Trip Presentation - Calanthe Art Cafe (CSM506)</h3>
+        <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
+            Date: 6th January 2026 | Category: Field Research | Subject: CSM506 - Service Experience Management
+        </p>
+        <div class="blog-preview">
+            <p>
+                Conducted field research at Calanthe Art Cafe in Jonker Walk, Melaka, analyzing their service experience management practices...
+            </p>
+        </div>
+        <div class="blog-full-content" style="display: none;">
+            <img src="jonker1.jpeg" alt="Service Quality" style="width:100%; max-width:250px; height:auto; border-radius:8px; margin:15px 0;">
+            <img src="jonker2.jpeg" alt="Service Quality" style="width:100%; max-width:140px; height:auto; border-radius:8px; margin:15px 0;">
+            <p>
+                For our CSM506 Service Experience Management course, our group visited Calanthe Art Cafe in 
+                Melaka's famous Jonker Walk to analyze their service delivery and customer experience strategies.
+            </p>
+            <p><strong>Project Overview:</strong></p>
+            <ul>
+                <li><strong>Company:</strong> Calanthe Art Cafe, Jonker Walk, Melaka</li>
+                <li><strong>Industry:</strong> Hospitality & Food Service</li>
+                <li><strong>Group Size:</strong> 4-5 members</li>
+                <li><strong>Methodology:</strong> Observation, customer interviews, staff interaction</li>
+                <li><strong>Focus:</strong> Service experience throughout customer journey</li>
+            </ul>
+            <p><strong>Research Process:</strong></p>
+            <ul>
+                <li>Pre-visit research on company background and offerings</li>
+                <li>On-site observation of customer-staff interactions</li>
+                <li>Interviews with customers about their experience</li>
+                <li>Analysis of physical environment and ambiance</li>
+                <li>Evaluation of service recovery processes</li>
+            </ul>
+            <p><strong>Key Findings:</strong></p>
+            <ul>
+                <li><strong>Strengths:</strong>
+                    <ul>
+                        <li>Unique art gallery cafe concept</li>
+                        <li>Strong cultural integration (Melakan heritage)</li>
+                        <li>Knowledgeable staff about products and local history</li>
+                        <li>Memorable visual and sensory experience</li>
+                    </ul>
+                </li>
+                <li><strong>Areas for Improvement:</strong>
+                    <ul>
+                        <li>Peak hour service delays</li>
+                        <li>Limited seating capacity</li>
+                        <li>Inconsistent service speed during busy periods</li>
+                        <li>Opportunity for digital menu integration</li>
+                    </ul>
+                </li>
+            </ul>
+            <p><strong>Recommendations:</strong></p>
+            <ul>
+                <li>Implementation of reservation system for peak hours</li>
+                <li>Staff cross-training to handle multiple roles during busy periods</li>
+                <li>Digital ordering system to reduce wait times</li>
+                <li>Enhanced customer feedback collection mechanism</li>
+                <li>Loyalty program for repeat customers</li>
+            </ul>
+            <p>
+                This field trip provided practical insights into how theoretical service experience concepts 
+                are applied in real business settings and the challenges faced by service providers in tourist-heavy locations.
+            </p>
+        </div>
+        <a href="javascript:void(0);" class="read-more-btn" onclick="toggleBlogContent(this)"
+           style="color: #1f3c88; font-weight: bold; text-decoration: none; display: inline-block; margin-top: 10px;">
+            View Details →
+        </a>
+    </div>
+
+    <!-- Experience 5: Community Engagement Program -->
+    <div class="card blog-article" style="border-left: 5px solid #06D6A0;">
+        <h3>Community Engagement: "Be a Buddy, Not a Bully" Program</h3>
+        <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
+            Date: 16th December 2025 | Category: Community Service | Location: SK Batu 9, Tanjung Karang
+        </p>
+        <div class="blog-preview">
+            <p>
+                Participated in a community engagement program at SK Batu 9 focused on anti-bullying awareness and peer support...
+            </p>
+        </div>
+        <div class="blog-full-content" style="display: none;">
+
+            <img src="sulam1.jpeg" alt="Service Quality" style="width:100%; max-width:250px; height:auto; border-radius:8px; margin:15px 0;">
+            <img src="sulam2.jpeg" alt="Service Quality" style="width:100%; max-width:250px; height:auto; border-radius:8px; margin:15px 0;">
+            
+            <img src="sulam4.jpeg" alt="Service Quality" style="width:100%; max-width:250px; height:auto; border-radius:8px; margin:15px 0;">
+            <img src="sulam5.jpeg" alt="Service Quality" style="width:100%; max-width:330px; height:auto; border-radius:8px; margin:15px 0;">
+            <img src="sulam3.jpeg" alt="Service Quality" style="width:100%; max-width:250px; height:auto; border-radius:8px; margin:15px 0;">
+            <p>
+                This community engagement program, titled "Be a Buddy, Not a Bully," was conducted in collaboration 
+                with the Guidance and Counseling Unit of SK Batu 9 in Tanjung Karang. The program aimed to raise 
+                awareness about bullying and promote positive peer relationships among primary school students.
+            </p>
+            <p><strong>Program Objectives:</strong></p>
+            <ul>
+                <li>Increase awareness about different forms of bullying</li>
+                <li>Promote empathy and kindness among students</li>
+                <li>Teach conflict resolution skills</li>
+                <li>Encourage students to be supportive friends</li>
+                <li>Create a safer school environment</li>
+            </ul>
+            <p><strong>Activities Conducted:</strong></p>
+            <ul>
+                <li><strong>Interactive Workshops:</strong> Role-playing scenarios about bullying situations</li>
+                <li><strong>Art Therapy Sessions:</strong> Drawing and expressing feelings about friendship</li>
+                <li><strong>Group Discussions:</strong> Sharing experiences and solutions</li>
+                <li><strong>Buddy System Launch:</strong> Pairing older and younger students as "buddies"</li>
+                <li><strong>Pledge Ceremony:</strong> Students pledged to be kind and report bullying</li>
+            </ul>
+            <p><strong>My Role & Contributions:</strong></p>
+            <ul>
+                <li>Facilitated small group discussions with Year 4-6 students</li>
+                <li>Helped prepare educational materials and activities</li>
+                <li>Assisted in coordinating the buddy pairing system</li>
+                <li>Documented program activities through photos and notes</li>
+                <li>Participated in post-program evaluation with school counselors</li>
+            </ul>
+            <p><strong>Outcomes & Impact:</strong></p>
+            <ul>
+                <li>Reached approximately 150 students across different year levels</li>
+                <li>Received positive feedback from teachers and students</li>
+                <li>Established ongoing buddy pairs for continued support</li>
+                <li>School reported increased awareness and reporting of bullying incidents</li>
+                <li>Strengthened university-school community partnership</li>
+            </ul>
+            <p>
+                This experience reinforced the importance of community service and applying service management 
+                principles in educational settings. It also developed my skills in program coordination, 
+                facilitation, and working with diverse age groups.
+            </p>
+        </div>
+        <a href="javascript:void(0);" class="read-more-btn" onclick="toggleBlogContent(this)"
+           style="color: #1f3c88; font-weight: bold; text-decoration: none; display: inline-block; margin-top: 10px;">
+            View Details →
+        </a>
+    </div>
+
+    <!-- Experience 6: Academic Trip to Melaka -->
+    <div class="card blog-article" style="border-left: 5px solid #118AB2;">
+        <h3>Academic Trip to Melaka - Service Experience Management</h3>
+        <p style="color: #666; font-size: 14px; margin-bottom: 10px;">
+            Date: 18th December 2025 | Category: Academic Field Trip | Subject: CSM506 | Role: Secretary
+        </p>
+        <div class="blog-preview">
+            <p>
+                Served as Secretary for an academic trip to Melaka, visiting multiple service organizations and managing comprehensive trip logistics...
+            </p>
+        </div>
+        <div class="blog-full-content" style="display: none;">
+
+            <img src="trip1.jpeg" alt="Service Quality" style="width:100%; max-width:445px; height:auto; border-radius:8px; margin:15px 0;">
+            <img src="trip2.jpeg" alt="Service Quality" style="width:100%; max-width:220px; height:auto; border-radius:8px; margin:15px 0;">
+            <img src="trip3.jpeg" alt="Service Quality" style="width:100%; max-width:250px; height:auto; border-radius:8px; margin:15px 0;">
+            <img src="trip4.jpeg" alt="Service Quality" style="width:100%; max-width:250px; height:auto; border-radius:8px; margin:15px 0;">
+            <img src="trip5.jpeg" alt="Service Quality" style="width:100%; max-width:250px; height:auto; border-radius:8px; margin:15px 0;">
+            <img src="trip6.jpeg" alt="Service Quality" style="width:100%; max-width:250px; height:auto; border-radius:8px; margin:15px 0;">
+            <img src="trip7.jpeg" alt="Service Quality" style="width:100%; max-width:250px; height:auto; border-radius:8px; margin:15px 0;">
+            <img src="trip8.jpeg" alt="Service Quality" style="width:100%; max-width:250px; height:auto; border-radius:8px; margin:15px 0;">
+            <p>
+                As the Secretary for the CSM506 Service Experience Management academic trip to Melaka, 
+                I was responsible for coordinating the extensive logistics and documentation for this 
+                educational journey involving students and accompanying lecturers.
+            </p>
+            <p><strong>Trip Logistics:</strong></p>
+            <ul>
+                <li><strong>Departure:</strong> 6:45 AM from Bus Stop FSK 1,5 UiTM Puncak Alam</li>
+                <li><strong>Participants:</strong> Students + Accompanying Lecturers</li>
+                <li><strong>Transport:</strong> Chartered bus</li>
+                <li><strong>Safety Briefing:</strong> Conducted pre-departure safety orientation</li>
+                <li><strong>Documentation:</strong> Attendance registration and record-keeping</li>
+            </ul>
+            <p><strong>Visited Organizations:</strong></p>
+            <ul>
+                <li><strong>Bee Gallery Melaka:</strong> Educational tourism and honey production</li>
+                <li><strong>Ayam Gepuk Pak Antok:</strong> Local food business service model</li>
+                <li><strong>Coconut Shake Klebang:</strong> Popular tourist attraction service operations</li>
+                <li><strong>SME Organizations, Jonker Walk:</strong> Small business service experiences</li>
+            </ul>
+            <p><strong>Secretary Responsibilities:</strong></p>
+            <ul>
+                <li>Coordinated paperwork submission and approval processes</li>
+                <li>Managed communications with 13 third language lecturers for signatures</li>
+                <li>Handled correspondence with organizations (many were initially unresponsive)</li>
+                <li>Revised and resubmitted proposal documents multiple times</li>
+                <li>Maintained detailed records of all trip activities</li>
+                <li>Prepared final report for submission to SAIS system</li>
+            </ul>
+            <p><strong>Challenges Overcome:</strong></p>
+            <ul>
+                <li><strong>Paperwork Rejections:</strong> Proposal rejected multiple times, requiring revisions</li>
+                <li><strong>Signature Collection:</strong> Difficulty obtaining signatures from 13 lecturers</li>
+                <li><strong>Organization Coordination:</strong> Many businesses initially unresponsive to visit requests</li>
+                <li><strong>Logistical Coordination:</strong> Managing diverse needs of large group</li>
+                <li><strong>Time Management:</strong> Balancing academic work with trip coordination</li>
+            </ul>
+            <p><strong>Key Learnings:</strong></p>
+            <ul>
+                <li>Perseverance in administrative processes</li>
+                <li>Effective communication with multiple stakeholders</li>
+                <li>Problem-solving when facing bureaucratic challenges</li>
+                <li>Importance of detailed documentation</li>
+                <li>Time management under pressure</li>
+                <li>Leadership in coordinating group activities</li>
+            </ul>
+            <p>
+                This experience significantly developed my organizational, communication, and leadership 
+                skills. It provided practical insights into the complexities of planning educational trips 
+                and reinforced the importance of thorough preparation and persistence in administrative tasks.
+            </p>
+        </div>
+        <a href="javascript:void(0);" class="read-more-btn" onclick="toggleBlogContent(this)"
+           style="color: #1f3c88; font-weight: bold; text-decoration: none; display: inline-block; margin-top: 10px;">
+            View Details →
+        </a>
+    </div>
+
+</section>
+
+<!-- CONTACT PAGE -->
+<section id="contact" class="page">
+    <h2>Contact</h2>
+    
+    <div class="card" style="text-align: center;">
+        <div style="margin-bottom: 30px;">
+            <h3 style="color: #1f3c88; margin-bottom: 20px;">Get In Touch</h3>
+            <p style="font-size: 16px; line-height: 1.6; color: #555;">
+                I'm always open to discussing new opportunities, collaborations, or just having a chat about service management and business innovation.
+            </p>
+        </div>
+        
+        <!-- Contact Information -->
+        <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; margin-bottom: 40px;">
+            <div style="flex: 1; min-width: 250px;">
+                <div style="background-color: #f0f5ff; padding: 25px; border-radius: 10px; height: 100%;">
+                    <h4 style="color: #1f3c88; margin-bottom: 20px; font-size: 1.1rem;">Contact Details</h4>
+                    
+                    <!-- Student Email -->
+                    <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                        <div style="background-color: #1f3c88; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div style="text-align: left;">
+                            <div style="font-weight: 600; color: #333;">Student Email</div>
+                            <div style="color: #555;">2024250978@student.uitm.edu.my</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Personal Email -->
+                    <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                        <div style="background-color: #e74c3c; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div style="text-align: left;">
+                            <div style="font-weight: 600; color: #333;">Personal Email</div>
+                            <div style="color: #555;">syahirahizzati@gmail.com</div>
+                        </div>
+                    </div>
+                    
+                    <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                        <div style="background-color: #1f3c88; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div style="text-align: left;">
+                            <div style="font-weight: 600; color: #333;">Phone / WhatsApp</div>
+                            <div style="color: #555;">011-51660052</div>
+                        </div>
+                    </div>
+                    
+                    <div style="display: flex; align-items: center;">
+                        <div style="background-color: #1f3c88; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px;">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div style="text-align: left;">
+                            <div style="font-weight: 600; color: #333;">Location</div>
+                            <div style="color: #555;">Puncak Alam, Selangor, Malaysia</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="flex: 1; min-width: 250px;">
+                <div style="background-color: #f0f5ff; padding: 25px; border-radius: 10px; height: 100%;">
+                    <h4 style="color: #1f3c88; margin-bottom: 20px; font-size: 1.1rem;">Connect With Me</h4>
+                    
+                    <!-- Social Media Icons Grid -->
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/syahirah-izzati-196647190/" target="_blank" style="text-decoration: none;">
+                            <div style="background-color: #0077b5; color: white; padding: 15px; border-radius: 8px; text-align: center; transition: all 0.3s ease;">
+                                <i class="fab fa-linkedin-in" style="font-size: 20px; margin-bottom: 8px;"></i>
+                                <div style="font-size: 13px; font-weight: 600;">LinkedIn</div>
+                            </div>
+                        </a>
+                        
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/syerahizzati.jpg?igsh=MWk3dDZzajF0eWJrdQ%3D%3D&utm_source=qr" target="_blank" style="text-decoration: none;">
+                            <div style="background: linear-gradient(45deg, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80); color: white; padding: 15px; border-radius: 8px; text-align: center; transition: all 0.3s ease;">
+                                <i class="fab fa-instagram" style="font-size: 20px; margin-bottom: 8px;"></i>
+                                <div style="font-size: 13px; font-weight: 600;">Instagram</div>
+                            </div>
+                        </a>
+                        
+                        <!-- Facebook -->
+                        <a href="https://www.facebook.com/share/1G8qt4JkAB/?mibextid=wwXIfr" target="_blank" style="text-decoration: none;">
+                            <div style="background-color: #1877f2; color: white; padding: 15px; border-radius: 8px; text-align: center; transition: all 0.3s ease;">
+                                <i class="fab fa-facebook-f" style="font-size: 20px; margin-bottom: 8px;"></i>
+                                <div style="font-size: 13px; font-weight: 600;">Facebook</div>
+                            </div>
+                        </a>
+                        
+                        <!-- Threads -->
+                        <a href="https://threads.net" target="_blank" style="text-decoration: none;">
+                            <div style="background-color: #000000; color: white; padding: 15px; border-radius: 8px; text-align: center; transition: all 0.3s ease;">
+                                <i class="fab fa-threads" style="font-size: 20px; margin-bottom: 8px;"></i>
+                                <div style="font-size: 13px; font-weight: 600;">Threads</div>
+                            </div>
+                        </a>
+                        
+                        <!-- WhatsApp -->
+                        <a href="https://wa.me/601151660052" target="_blank" style="text-decoration: none; grid-column: span 2;">
+                            <div style="background-color: #25D366; color: white; padding: 15px; border-radius: 8px; text-align: center; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 10px;">
+                                <i class="fab fa-whatsapp" style="font-size: 20px;"></i>
+                                <div style="font-size: 13px; font-weight: 600;">WhatsApp Message</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Contact Form -->
+        <div style="background-color: #f8f9fa; padding: 30px; border-radius: 10px; margin-top: 20px;">
+            <h4 style="color: #1f3c88; margin-bottom: 20px; font-size: 1.1rem;">Send Me a Message</h4>
+
+            <!-- FORMSPREE FORM -->
+            <form action="https://formspree.io/f/YOUR_FORM_ID_HERE" method="POST" 
+                  style="max-width: 600px; margin: 0 auto;"
+                  id="contactForm">
+            
+            <form id="contactForm" style="max-width: 600px; margin: 0 auto;">
+                <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 20px;">
+                    <div style="flex: 1; min-width: 200px;">
+                        <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #555;">Your Name</label>
+                        <input type="text" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; font-size: 14px;" required>
+                    </div>
+                    <div style="flex: 1; min-width: 200px;">
+                        <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #555;">Your Email</label>
+                        <input type="email" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; font-size: 14px;" required>
+                    </div>
+                </div>
+                
+                <div style="margin-bottom: 20px;">
+                    <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #555;">Subject</label>
+                    <input type="text" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; font-size: 14px;" required>
+                </div>
+                
+                <div style="margin-bottom: 25px;">
+                    <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #555;">Message</label>
+                    <textarea style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; font-size: 14px; min-height: 120px; resize: vertical;" required></textarea>
+                </div>
+                
+                <button type="submit" style="background-color: #1f3c88; color: white; border: none; padding: 12px 30px; border-radius: 5px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background-color 0.3s ease;">
+                    Send Message
+                </button>
+            </form>
+        </div>
+        
+        <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee;">
+            <p style="color: #777; font-size: 14px;">
+                I typically respond within 24-48 hours. For urgent matters, please use WhatsApp or call.
+            </p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; MKT572 Personal Branding</p>
+    <p> Siti Nor Syahirah Izzati Binti Mat Sakri | 2024250978 | BA2643A </p>
+    <p>Prepared For: Madam Norhusniyati Binti Husin</p>
+    <p>Submission on: 18th January 2026</p>
+</footer>
+
+<script>
+    // Function to show only the selected page
+    function showPage(pageId) {
+        // Hide all pages
+        const pages = document.querySelectorAll('.page');
+        pages.forEach(page => {
+            page.classList.remove('active');
+        });
+        
+        // Show the selected page
+        const activePage = document.getElementById(pageId);
+        if (activePage) {
+            activePage.classList.add('active');
+        }
+        
+        // Update URL hash without scrolling
+        history.pushState(null, null, '#' + pageId);
+    }
+
+    // Show home page by default when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        // Check if there's a hash in the URL
+        const hash = window.location.hash.substring(1);
+        if (hash && document.getElementById(hash)) {
+            showPage(hash);
+        } else {
+            showPage('home');
+        }
+    });
+
+    // Handle browser back/forward buttons
+    window.addEventListener('popstate', function() {
+        const hash = window.location.hash.substring(1);
+        if (hash && document.getElementById(hash)) {
+            showPage(hash);
+        } else {
+            showPage('home');
+        }
+    });
+
+
+</script>
+
+<script>
+    // Function to show only the selected page
+    function showPage(pageId) {
+        // Hide all pages
+        const pages = document.querySelectorAll('.page');
+        pages.forEach(page => {
+            page.classList.remove('active');
+        });
+        
+        // Show the selected page
+        const activePage = document.getElementById(pageId);
+        if (activePage) {
+            activePage.classList.add('active');
+        }
+        
+        // Update URL hash without scrolling
+        history.pushState(null, null, '#' + pageId);
+    }
+
+    // Show home page by default when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+        // Check if there's a hash in the URL
+        const hash = window.location.hash.substring(1);
+        if (hash && document.getElementById(hash)) {
+            showPage(hash);
+        } else {
+            showPage('home');
+        }
+    });
+
+    // Handle browser back/forward buttons
+    window.addEventListener('popstate', function() {
+        const hash = window.location.hash.substring(1);
+        if (hash && document.getElementById(hash)) {
+            showPage(hash);
+        } else {
+            showPage('home');
+        }
+    });
+
+    // =============================================
+    // TAMBAH FUNCTION INI UNTUK BLOG
+    // =============================================
+    function toggleBlogContent(button) {
+        const blogArticle = button.closest('.blog-article');
+        const preview = blogArticle.querySelector('.blog-preview');
+        const fullContent = blogArticle.querySelector('.blog-full-content');
+        const isExpanded = fullContent.style.display === 'block';
+        
+        if (isExpanded) {
+            // Collapse content
+            fullContent.style.display = 'none';
+            preview.style.display = 'block';
+            button.innerHTML = 'Read more →';
+            button.style.color = '#1f3c88';
+        } else {
+            // Expand content
+            fullContent.style.display = 'block';
+            preview.style.display = 'none';
+            button.innerHTML = 'Read less ←';
+            button.style.color = '#e74c3c';
+        }
+        
+        // Smooth scroll to keep content in view
+        blogArticle.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+</script>
+
+<script>
+    // Contact Form Submission
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    // Get form values
+    const name = this.querySelector('input[type="text"]').value;
+    const email = this.querySelector('input[type="email"]').value;
+    const subject = this.querySelectorAll('input[type="text"]')[1].value;
+    const message = this.querySelector('textarea').value;
+    
+    // In a real application, you would send this data to a server
+    // For now, we'll just show a success message
+    alert(`Thank you ${name}! Your message has been sent successfully. I will get back to you soon.`);
+    
+    // Reset form
+    this.reset();
+});
+    
+</script>
+
+</body>
+</html>
